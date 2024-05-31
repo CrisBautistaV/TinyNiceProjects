@@ -8,9 +8,9 @@ There was this giant book where you walked in and a sensor detected your movemen
 It's developed in **Processing** and it involves some **Computer Vision** using a variation of **OpenCV** library, **Augmented Reality** using a Hiro mark, **real-time camera**, **audios** and **GPIO activations**.
 It was thought for be running in a **Raspberry Pi 3 B+** so, a lot of optimizations were made, but it can be used for regular PC that is the version I've uploaded.
 
-* In [audios](TinyNiceProjects/projects/A-Window-Through-a-Book/audios) are the dialogues and some other music that I also composed.
-* In [data](TinyNiceProjects/projects/A-Window-Through-a-Book/data) are the files of for the augmented reality target.
-* In [images](TinyNiceProjects/projects/A-Window-Through-a-Book/images) are the pictures used.
+* In [audios](audios) are the dialogues and some other music that I also composed.
+* In [data](data) are the files of for the augmented reality target.
+* In [images](images) are the pictures used.
 
 Feel free to use it any of this files. If you do so, a mention would be nice. ;)
 
@@ -24,10 +24,10 @@ Había un libro gigante donde entrabas y un sensor detectaba tu movimiento, ento
 Está desarrollado en **Processing** e implica algo de **Visión por Computadora** usando una variación de la biblioteca **OpenCV**, **Realidad Aumentada** usando una marca Hiro, **cámara en tiempo real**, **audios** y **activaciones GPIO**.
 Se pensó para ejecutarse en una **Raspberry Pi 3 B+**, por lo que se realizaron muchas optimizaciones, pero se puede usar en una PC normal, que es la versión que subí.
 
-* En [audios](projects/A-Window-Through-a-Book/audios) están los diálogos y alguna otra música que también compuse.
-* En [data](projects/A-Window-Through-a-Book/data) están los archivos del objetivo de realidad aumentada.
-* En [images](projects/A-Window-Through-a-Book/images) están las fotografías utilizadas.
+* En [audios](audios) están los diálogos y alguna otra música que también compuse.
+* En [data](data) están los archivos del objetivo de realidad aumentada.
+* En [images](images) están las fotografías utilizadas.
 
-Siéntente libre de utilizar cualquiera de estos archivos. Si lo haces, una mención serpia genial. ;)
+Siéntente libre de utilizar cualquiera de estos archivos. Si lo haces, una mención sería genial. ;)
 
 
