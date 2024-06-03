@@ -1,0 +1,90 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01F.6   C1OUT
+01F.7   C2OUT
+020     @INTERRUPT_AREA
+021     @INTERRUPT_AREA
+022     @INTERRUPT_AREA
+023     @INTERRUPT_AREA
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028-029 delay
+02A-02B min
+02C-02D max
+02E-02F tiempo
+030     bit
+031     pal
+032     dato
+033     salida
+034-051 palabra
+052.0   hi
+052.1   hi2
+052.2   acento
+053-054 MAIN.cont
+055-056 MAIN.cont2
+057     PWM.@SCRATCH1
+057     MAIN.@SCRATCH1
+058     @delay_ms1.P1
+058     PWM.@SCRATCH2
+058     MAIN.@SCRATCH2
+059     PWM.@SCRATCH3
+05A     @delay_us1.P1
+05B     EXT_isr.@SCRATCH1
+05B     RDA_isr.@SCRATCH1
+05C     RDA_isr.@SCRATCH2
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09B-09C @READ_PROGRAM_MEMORY8.P1
+
+ROM Allocation:
+00DD  @delay_ms1
+00F2  @delay_us1
+0035  sinshift
+0099  acentuadas
+00A7  EXT_isr
+00C7  RDA_isr
+0106  PWM
+0133  motor
+0168  MAIN
+0168  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\Users\Cristian\Documents\Ingeniería\Proyectps\Para Invidentes\Pic16f268a\
+
+Project Files:
+    main.c
+    main.h
+    ..\..\..\..\..\..\..\Program Files\PICC\devices\16F628A.h
+
+Units:
+    C:\Users\Cristian\Documents\Ingeniería\Proyectps\Para Invidentes\Pic16f268a\main (main)
+
+Compiler Settings:
+    Processor:      PIC16F628A
+    Pointer Size:   16
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.PJT
+    Call Tree:   main.tre
+    Statistics:  main.sta
